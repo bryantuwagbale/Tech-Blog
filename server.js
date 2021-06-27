@@ -26,7 +26,7 @@ const sess = {
   app.use(session(sess));
   
   
-  app.use("/", controller);
+   app.use("/", controller);
   
   
   app.engine("handlebars", exphbs());
